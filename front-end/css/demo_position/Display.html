@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .inline{
+            background: red;
+            display: inline;
+            height: 200px;
+            width: 200px;
+
+        }
+        .block{
+            background: red;
+            display: block;
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            margin: 10px;
+            padding: 100px;
+            border: 10px solid black;
+            box-sizing: border-box;
+        ;
+
+        }
+        .inline-block{
+            background: red;
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            flex-wrap: wrap;
+        }
+        .container{
+            height: 400px;
+            background-color: #7952b3;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+  <div class="container">
+      <div class="block">inline</div>
+      <div class="block">inline</div>
+      <div class="block">inline</div>
+  </div>
+
+
+
+
+</body>
+</html>
